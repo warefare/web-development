@@ -1,0 +1,27 @@
+.hero {
+    background: url("../img/beats.jpg") left 78% center no-repeat,
+                url("../img/rectangle.png") right bottom no-repeat;
+    background-color: $grey;
+    height: 100vh;
+    min-width: 650px;
+    color: $black;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.menu__item{
+    margin-right: 15px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.menu__link {
+    text-decoration: none;
+}

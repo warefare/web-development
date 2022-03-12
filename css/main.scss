@@ -1,0 +1,22 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+
+//colors
+$red: #E01F3D;
+$grey: #F5F5F5;
+$black: #292929;
+$white: #AAAAAA;
+
+//normalize
+@import "./normalize.css";
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Play:wght@400;700&display=swap');
+
+//layout
+@import "layout";
+
+//components
+@import "components/hero";
+@import "components/header";
+@import "components/features";
