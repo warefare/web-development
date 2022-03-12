@@ -1,10 +1,14 @@
 .hero {
     background: url("../img/beats.jpg") left 78% center no-repeat,
-                url("../img/rectangle.png") right bottom no-repeat;
+        url("../img/rectangle.png") right bottom no-repeat;
     background-color: $grey;
     height: 100vh;
     min-width: 650px;
     color: $black;
+}
+
+.hero__title-section {
+    width: 46%;
 }
 
 .hero__container {
@@ -12,9 +16,10 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    padding: 24px 0 45px 0;
 }
 
-.menu__item{
+.menu__item {
     margin-right: 15px;
 
     &:last-child {
@@ -24,4 +29,21 @@
 
 .menu__link {
     text-decoration: none;
+}
+
+.hero__main-title {
+    
+    font-family: 'Play', Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.hero__title-desc {
+    font-size: 21px;
+    margin-bottom: 28px;
+    padding-right: 111px;
+
 }

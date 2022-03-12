@@ -3,6 +3,7 @@ $baseFontSize: 18px;
 
 //colors
 $red: #E01F3D;
+$red-hover: #CA1B36;
 $grey: #F5F5F5;
 $black: #292929;
 $white: #AAAAAA;
@@ -20,3 +21,4 @@ $white: #AAAAAA;
 @import "components/hero";
 @import "components/header";
 @import "components/features";
+@import "components/buttons";

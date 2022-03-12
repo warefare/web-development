@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.feature {
+display: flex;
+}
+
 .features__item {
     margin-right: 46px;
 
@@ -17,4 +21,5 @@
 
 .feature__text {
     font-size: 18px;
+    max-width: 114px;
 }
