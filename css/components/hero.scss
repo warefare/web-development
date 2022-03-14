@@ -1,10 +1,16 @@
 .hero {
-    background: url("../img/beats.jpg") left 78% center no-repeat,
-        url("../img/rectangle.png") right bottom no-repeat;
-    background-color: $grey;
-    height: 100vh;
+    background: #F8FAF9;
+    height: 75vh;
     min-width: 650px;
     color: $black;
+    position: relative;
+
+    &::before {
+        position: absolute;
+        bottom: -32px;
+        right: 7%;
+       content: url("../../img/rectangle.png") 
+    }
 }
 
 .hero__title-section {
@@ -16,15 +22,8 @@
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 24px 0 45px 0;
-}
-
-.menu__item {
-    margin-right: 15px;
-
-    &:last-child {
-        margin-right: 0;
-    }
+    padding: 24px 0 126px 0;
+    background: url("../img/beats.png") right  center / 50% auto no-repeat;
 }
 
 .menu__link {
@@ -39,11 +38,11 @@
     font-weight: bold;
     margin-bottom: 15px;
     text-transform: uppercase;
+    padding-right: 64px;
 }
 
 .hero__title-desc {
     font-size: 21px;
-    margin-bottom: 28px;
+    margin-bottom: 48px;
     padding-right: 111px;
-
 }

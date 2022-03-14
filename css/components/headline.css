@@ -1,0 +1,13 @@
+.headline {
+  text-align: center;
+}
+
+.headline__title {
+  margin-bottom: 18px;
+}
+
+.headline__subtitle {
+  font-size: 16px;
+  padding: 0 26%;
+  margin-bottom: 62px;
+}

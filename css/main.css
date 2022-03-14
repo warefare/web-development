@@ -12,9 +12,9 @@ html {
 }
 
 body {
-  color: #fff;
+  color: #666;
   margin: 0;
-  background: #001821;
+  background: #fff;
   line-height: 1.42;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -86,14 +86,21 @@ footer {
 .container {
   width: 1100px;
   margin: 0 auto;
+  position: relative;
 }
 
 .hero {
-  background: url("../img/beats.jpg") left 78% center no-repeat, url("../img/rectangle.png") right bottom no-repeat;
-  background-color: #F5F5F5;
-  height: 100vh;
+  background: #F8FAF9;
+  height: 75vh;
   min-width: 650px;
   color: #292929;
+  position: relative;
+}
+.hero::before {
+  position: absolute;
+  bottom: -32px;
+  right: 7%;
+  content: url("../../img/rectangle.png");
 }
 
 .hero__title-section {
@@ -112,14 +119,8 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  padding: 24px 0 45px 0;
-}
-
-.menu__item {
-  margin-right: 15px;
-}
-.menu__item:last-child {
-  margin-right: 0;
+  padding: 24px 0 126px 0;
+  background: url("../img/beats.png") right center/50% auto no-repeat;
 }
 
 .menu__link {
@@ -133,11 +134,12 @@ footer {
   font-weight: bold;
   margin-bottom: 15px;
   text-transform: uppercase;
+  padding-right: 64px;
 }
 
 .hero__title-desc {
   font-size: 21px;
-  margin-bottom: 28px;
+  margin-bottom: 48px;
   padding-right: 111px;
 }
 
@@ -163,7 +165,7 @@ footer {
 }
 
 .menu__item {
-  margin-right: 15px;
+  margin-right: 46px;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -195,23 +197,10 @@ footer {
   font-family: "Play", Arial, Helvetica, sans-serif;
 }
 
-.features {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .feature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.features__item {
-  margin-right: 46px;
-}
-.features__item:last-child {
-  margin-right: 0;
 }
 
 .feature__icon {
@@ -222,6 +211,19 @@ footer {
 .feature__text {
   font-size: 18px;
   max-width: 114px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__item {
+  margin-right: 46px;
+}
+.features__item:last-child {
+  margin-right: 0;
 }
 
 .button {
@@ -239,4 +241,124 @@ footer {
 }
 .button:hover {
   background: #CA1B36;
+}
+
+.section {
+  height: 10vh;
+  min-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Play", Arial, Helvetica, sans-serif;
+  margin-bottom: 53px;
+  text-align: center;
+  color: #292929;
+  text-transform: uppercase;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline__title {
+  margin-bottom: 18px;
+}
+
+.headline__subtitle {
+  font-size: 16px;
+  padding: 0 26%;
+  margin-bottom: 62px;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.benefit__icon {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.benefit__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #292929;
+  margin-bottom: 7px;
+}
+
+.benefit__desc {
+  font-size: 16px;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 3%;
+  position: relative;
+}
+.benefits__item::before {
+  content: url("../img/separator.png");
+  position: absolute;
+  top: 30px;
+  right: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+.benefits__item:first-child {
+  padding-left: 0;
+}
+.benefits__item:last-child {
+  padding-right: 0;
+}
+.benefits__item:last-child::before {
+  display: none;
+}
+
+.benefits-section {
+  position: relative;
+}
+.benefits-section::before {
+  content: url("/img/triangle.png");
+  position: absolute;
+  bottom: 0px;
+  left: 461px;
+}
+
+.reviews__display {
+  background: #F8FAF9;
 }

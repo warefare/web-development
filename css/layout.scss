@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    color: #fff;
+    color: #666;
     margin: 0;
-    background: #001821;
+    background: #fff;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -85,4 +85,5 @@ footer {
 .container {
     width: $containerWidth;
     margin: 0 auto;
+    position: relative;
 }
