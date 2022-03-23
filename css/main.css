@@ -444,7 +444,7 @@ footer {
   position: absolute;
   bottom: -32px;
   right: 7%;
-  content: url("../../../img/rectangle.png");
+  content: url("./img/rectangle.png");
 }
 
 .hero__title-section {
