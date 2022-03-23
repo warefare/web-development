@@ -712,7 +712,7 @@ footer {
   position: relative;
 }
 .benefits-section::before {
-  content: url("/img/triangle.png");
+  content: url("../img/triangle.png");
   position: absolute;
   bottom: 0px;
   left: 461px;
@@ -832,14 +832,14 @@ footer {
   position: relative;
 }
 .reviews-section::before {
-  content: url("/img/circle.png");
+  content: url("../img/circle.png");
   position: absolute;
   bottom: 0px;
   left: 461px;
 }
 
 .order-section {
-  background: url(../../img/cta.png);
+  background: url("../img/cta.png");
 }
 
 .form {
