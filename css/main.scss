@@ -8,25 +8,36 @@ $grey: #F5F5F5;
 $black: #292929;
 $white: #AAAAAA;
 
-//normalize
-@import "./normalize.css";
+//z-index
+$z-fixed-menu: 100;
 
-//fonts
+//normalize
+@import "normalize";
+
+// //fonts
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Play:wght@400;700&display=swap');
 
 //layout
-@import "layout";
+@import "./layout";
+
+
 
 //components
-@import "components/hero";
-@import "components/header";
-@import "components/feature";
-@import "components/features";
-@import "components/buttons";
-@import "components/section";
-@import "components/headline";
-@import "components/benefit";
-@import "components/benefits";
-@import "components/benefits-section";
-@import "components/reviews__display";
-
+@import "./blocks/hero";
+@import "./blocks/header";
+@import "./blocks/feature";
+@import "./blocks/features";
+@import "./blocks/buttons";
+@import "./blocks/section";
+@import "./blocks/headline";
+@import "./blocks/benefit";
+@import "./blocks/benefits";
+@import "./blocks/benefits-section";
+@import "./blocks/reviews__display";
+@import "./blocks/interactive-avatar";
+@import "./blocks/reviews__switcher";
+@import "./blocks/reviews-section";
+@import "./blocks/order-section";
+@import "./blocks/form";
+@import "./blocks/radio";
+@import "./blocks/fixed-menu";

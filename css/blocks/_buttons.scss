@@ -1,0 +1,28 @@
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 21px 41px;
+    text-transform: uppercase;
+    border-radius: 100px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    font-family: 'Play', Arial, Helvetica, sans-serif;
+
+    &__red {
+        background: $red;
+        color: #fff;
+
+        &:hover {
+            background: $red-hover;
+        }
+    }
+
+    &__transparent {
+        background: transparent;
+        color: #fff;
+        font-weight: normal;
+        text-transform: none;
+    }
+}
