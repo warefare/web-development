@@ -839,8 +839,9 @@ footer {
 }
 
 .order-section {
-  background: url("../img/cta.png") center center no-repeat;
+  background: url("../img/cta.png") center center;
   background-size: cover;
+  background-position: 50% 77%;
 }
 
 .form {
@@ -908,6 +909,7 @@ footer {
 
 .form__btns {
   margin-top: 48px;
+  margin-bottom: 85px;
 }
 
 .radio {
