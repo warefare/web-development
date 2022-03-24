@@ -435,7 +435,7 @@ footer {
 
 .hero {
   background: #F8FAF9;
-  height: 75vh;
+  height: 100vh;
   min-width: 650px;
   color: #292929;
   position: relative;
@@ -497,6 +497,8 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-weight: 400;
+  font-family: "Algreya Sans", Arial, Helvetica, sans-serif;
 }
 
 .menu__list {
@@ -610,12 +612,6 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.section.section--font-color-white {
-  color: #fff;
-}
-.section.section--font-color-white .section__title {
-  color: inherit;
-}
 
 .section__title {
   font-size: 48px;
@@ -678,6 +674,17 @@ footer {
 }
 
 .benefits {
+  position: relative;
+  height: 100vh;
+}
+.benefits::before {
+  content: url("../img/triangle.png");
+  position: absolute;
+  bottom: 0px;
+  left: 461px;
+}
+
+.benefits__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -706,16 +713,6 @@ footer {
 }
 .benefits__item:last-child::before {
   display: none;
-}
-
-.benefits-section {
-  position: relative;
-}
-.benefits-section::before {
-  content: url("../img/triangle.png");
-  position: absolute;
-  bottom: 0px;
-  left: 461px;
 }
 
 .reviews__display {
@@ -828,20 +825,26 @@ footer {
           justify-content: center;
 }
 
-.reviews-section {
+.reviews {
   position: relative;
+  height: 100vh;
 }
-.reviews-section::before {
+.reviews::before {
   content: url("../img/circle.png");
   position: absolute;
   bottom: 0px;
   left: 461px;
 }
 
-.order-section {
+.order {
   background: url("../img/cta.png") center center;
   background-size: cover;
-  background-position: 50% 77%;
+  background-position: 50% 81%;
+  height: 100vh;
+  color: #fff;
+}
+.order .section__title {
+  color: inherit;
 }
 
 .form {

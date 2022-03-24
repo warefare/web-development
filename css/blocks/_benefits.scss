@@ -1,4 +1,16 @@
 .benefits {
+    position: relative;
+    height: 100vh;
+
+    &::before {
+        content: url("../img/triangle.png");
+        position: absolute;
+        bottom: 0px;
+        left: 461px;
+    }
+}
+
+.benefits__list {
    display: flex; 
 }
 

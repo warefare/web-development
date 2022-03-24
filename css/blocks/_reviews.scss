@@ -1,5 +1,6 @@
-.reviews-section {
+.reviews {
     position: relative;
+    height: 100vh;
 
     &::before {
         content: url("../img/circle.png");
