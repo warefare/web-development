@@ -555,7 +555,8 @@ footer {
 }
 
 .feature__text {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Play", Arial, Helvetica, sans-serif;
   max-width: 114px;
 }
 
