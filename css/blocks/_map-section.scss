@@ -1,5 +1,5 @@
 .map-section {
-    background: url("../../img/map.jpg") center center  / contain no-repeat;
+    background: url("../img/map.jpg") center center  / contain no-repeat;
     margin-bottom: rem(20px);
     // width: 100%;
     // overflow: hidden;
@@ -9,11 +9,11 @@
     
 
 @include tablets {
-    background: url("../../img/map768.jpg") center center  / contain no-repeat;
+    background: url("../img/map768.jpg") center center  / contain no-repeat;
 }
 
 @include phones {
-    background: url("../../img/map482.jpg") center center  / contain no-repeat;
+    background: url("../img/map482.jpg") center center  / contain no-repeat;
 }
 
     }

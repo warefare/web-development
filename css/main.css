@@ -1264,17 +1264,17 @@ footer {
 }
 
 .map-section {
-  background: url("../../img/map.jpg") center center/contain no-repeat;
+  background: url("../img/map.jpg") center center/contain no-repeat;
   margin-bottom: 1.1111111111rem;
 }
 @media screen and (max-width: 768px) {
   .map-section {
-    background: url("../../img/map768.jpg") center center/contain no-repeat;
+    background: url("../img/map768.jpg") center center/contain no-repeat;
   }
 }
 @media screen and (max-width: 480px) {
   .map-section {
-    background: url("../../img/map482.jpg") center center/contain no-repeat;
+    background: url("../img/map482.jpg") center center/contain no-repeat;
   }
 }
 
