@@ -18,6 +18,10 @@
     font-family: 'Play', Arial, Helvetica, sans-serif;
     white-space:nowrap ;
 
+@include tablets {
+    font-size: 18px;
+}
+
     @include phones{
     margin-bottom: rem(19px);
     font-size: 16px;
@@ -40,6 +44,11 @@
 .contacts__place {
 
     font-size: $baseFontSize;
+
+@include tablets {
+    font-size: 21px;
+}
+
     @include phones {
     margin-bottom: rem(12px);
     }

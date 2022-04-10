@@ -33,11 +33,24 @@
     font-weight: bold;
     color: $black;
     margin-bottom: rem(7px);
-    // white-space:nowrap
+    white-space:nowrap;
+
+    @include phones {
+        white-space:normal;
+    }
 }
 
 .benefit__desc {
     font-family: 'Play', Arial, Helvetica, sans-serif;
     font-size: rem(16px);
+    padding: 0 14%;
+
+    @include tablets {
+        padding: 0 1%;  
+    }
     
+@include phones {
+    padding: 0 2%;
+}
+
 }

@@ -1,11 +1,16 @@
 .interactive-avatar {
-    width: 64px;
-    height: 64px;
+    width: 82px;
+    height: 82px;
     border: rem(4px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
 
+
+    @include phones {
+    width: 69px;
+    height: 69px;
+    }
 
     &--active {
         border-color: $red;

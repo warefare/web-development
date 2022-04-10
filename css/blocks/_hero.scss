@@ -68,9 +68,9 @@
     font-size: 48px;
     line-height: 1.1;
     font-weight: bold;
-    margin-bottom: rem(5px);
+    margin-bottom: rem(14px);
     text-transform: uppercase;
-    padding-right: 7%;
+    padding-right: 9%;
 
     @include tablets {
         padding: 0 5%;
@@ -85,16 +85,16 @@
 .hero__title-desc {
     font-family: 'Play', Arial, Helvetica, sans-serif;
     font-size: 21px;
-    margin-bottom: rem(23px);
-    padding-right: rem(111px);
+    margin-bottom: rem(40px);
+    padding-right: 17%;
 
     @include tablets {
-        padding: 0 19%;
+        padding: 0 22%;
         font-size: 18px;
     }
 
     @include phones {
-        padding: 0 12%;
+        padding: 0 13%;
     }
 }
 
