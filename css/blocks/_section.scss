@@ -1,6 +1,6 @@
 .section {
     height: 10vh;
-    min-height: 650px;
+    min-height: rem(650px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,10 +16,10 @@
 }
 
 .section__title {
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: bold;
     font-family: 'Play', Arial, Helvetica, sans-serif;
-    margin-bottom: 53px;
+    margin-bottom: rem(53px);
     text-align: center;
     color: $black;
     text-transform: uppercase;

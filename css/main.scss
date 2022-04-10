@@ -1,6 +1,10 @@
 $containerWidth: 1100px;
 $baseFontSize: 18px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $red: #E01F3D;
 $red-hover: #CA1B36;
@@ -10,6 +14,9 @@ $white: #AAAAAA;
 
 //z-index
 $z-fixed-menu: 100;
+
+//media
+@import "./media";
 
 //normalize
 @import "normalize";
@@ -22,6 +29,8 @@ $z-fixed-menu: 100;
 
 
 
+
+
 //components
 @import "./blocks/hero";
 @import "./blocks/header";
@@ -31,7 +40,6 @@ $z-fixed-menu: 100;
 @import "./blocks/section";
 @import "./blocks/headline";
 @import "./blocks/benefit";
-// @import "./blocks/benefits";
 @import "./blocks/benefits";
 @import "./blocks/reviews__display";
 @import "./blocks/interactive-avatar";
@@ -41,3 +49,7 @@ $z-fixed-menu: 100;
 @import "./blocks/form";
 @import "./blocks/radio";
 @import "./blocks/fixed-menu";
+@import "./blocks/hamburger";
+@import "./blocks/map-section";
+@import "./blocks/footer";
+@import "./blocks/contacts";

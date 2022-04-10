@@ -6,6 +6,16 @@
         content: url("../img/circle.png");
         position: absolute;
         bottom: 0px;
-        left: 461px;
+        left: 172px;
+
+@include tablets {
+    bottom: -26px;
+    left: 98px;
+}
+
+        @include phones {
+            bottom: -23px;
+            left: 54px;
+        }
     }
 }

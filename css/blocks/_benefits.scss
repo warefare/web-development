@@ -5,26 +5,55 @@
     &::before {
         content: url("../img/triangle.png");
         position: absolute;
-        bottom: 0px;
+        bottom: 10px;
         left: 461px;
+
+        @include tablets {
+            bottom: -4px;
+            left: 47px;  
+        }
+
+        @include phones {
+            bottom: 83px;
+            left: 42px;
+        }
+        
     }
 }
 
 .benefits__list {
    display: flex; 
+   flex-wrap: wrap;
+
+   @include phones {
+       flex-direction: column;
+   }
 }
 
 .benefits__item {
     flex: 1;
-    padding: 0 3%;
+    padding: 0 1%;
     position: relative;
+
+    @include phones {
+        padding-bottom: 2%;
+    }
 
     &::before {
         content: url("../img/separator.png");
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include tablets {
+            display: none;
+        }
+
+        @include phones {
+            padding: 0;
+        }
+
     }
 
     &:first-child {
@@ -38,4 +67,18 @@
             display: none;
         }
     }
+}
+
+.benefits__item p {
+    font-size: 16px;
+
+    @include phones {
+        padding: 0;
+        margin-bottom: 0;
+        }
+}
+
+.benefit__image {
+    margin-bottom: rem(19px);
+    margin-right: rem(12px);
 }

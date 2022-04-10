@@ -1,9 +1,9 @@
 .button {
-    font-size: 16px;
+    font-size: rem(16px);
     font-weight: bold;
-    padding: 21px 41px;
+    padding: rem(23px) rem(46px);
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
     text-decoration: none;
     display: inline-block;
@@ -24,5 +24,9 @@
         color: #fff;
         font-weight: normal;
         text-transform: none;
+
+        &:hover{
+            color: $red;
+        }
     }
 }

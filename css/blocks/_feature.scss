@@ -3,12 +3,12 @@
     }
 
     .feature__icon {
-        width: 45px;
-        margin-right: 7px;
+        width: rem(45px);
+        margin-right: rem(7px);
     }
     
     .feature__text {
-        font-size: 16px;
+        font-size: rem(16px);
         font-family: 'Play', Arial, Helvetica, sans-serif;
-        max-width: 114px;
+        max-width: rem(114px);
     }

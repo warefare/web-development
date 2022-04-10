@@ -1,5 +1,10 @@
 .benefit {
     text-align: center;
+
+    @include phones {
+        display: flex;
+        text-align: left;
+    }
 }
 
 .benefit__image-wrapper {
@@ -10,7 +15,7 @@
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: rem(24px);
 }
 
 .benefit__icon {
@@ -26,9 +31,10 @@
     font-size: 24px;
     font-weight: bold;
     color: $black;
-    margin-bottom: 7px;
+    margin-bottom: rem(7px);
+    white-space:nowrap
 }
 
 .benefit__desc {
-    font-size: 16px;
+    font-size: rem(16px);
 }
