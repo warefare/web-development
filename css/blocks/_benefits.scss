@@ -35,6 +35,10 @@
     padding: 0 1%;
     position: relative;
 
+    @include tablets {
+        padding-bottom: 4%;   
+    }
+
     @include phones {
         padding-bottom: 2%;
     }

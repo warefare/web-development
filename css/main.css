@@ -523,7 +523,7 @@ footer {
   font-weight: bold;
   margin-bottom: 0.2777777778rem;
   text-transform: uppercase;
-  padding-right: 8.3333333333rem;
+  padding: 0 5%;
 }
 @media screen and (max-width: 480px) {
   .hero__main-title {
@@ -731,7 +731,6 @@ footer {
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 1.3333333333rem;
 }
 
 .benefit__icon {
@@ -801,6 +800,11 @@ footer {
           flex: 1;
   padding: 0 1%;
   position: relative;
+}
+@media screen and (max-width: 768px) {
+  .benefits__item {
+    padding-bottom: 4%;
+  }
 }
 @media screen and (max-width: 480px) {
   .benefits__item {
