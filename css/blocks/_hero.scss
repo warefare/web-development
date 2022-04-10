@@ -12,7 +12,7 @@
 
     &::before {
         position: absolute;
-        bottom: -32px;
+        bottom: -3%;
         right: 7%;
        content: url("../img/rectangle.png");
     }
@@ -32,8 +32,8 @@
 
         &::before {
             content:"" ;
-            width: 323px;
-            height: 323px;
+            width: rem(323px);
+            height: rem(323px);
             background: url("../../img/beats_little.png") center center / contain no-repeat;
             margin-bottom: rem(60px);
         }

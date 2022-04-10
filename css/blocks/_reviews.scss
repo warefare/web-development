@@ -5,17 +5,17 @@
     &::before {
         content: url("../img/circle.png");
         position: absolute;
-        bottom: 0px;
-        left: 172px;
+        bottom: -2.5%;
+        left: 2%;
 
 @include tablets {
-    bottom: -26px;
-    left: 98px;
+    bottom: -2.5%;
+    left: 8%;
 }
 
         @include phones {
-            bottom: -23px;
-            left: 54px;
+            bottom: -2.5%;
+            left: 11%;
         }
     }
 }

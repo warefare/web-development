@@ -11,10 +11,10 @@
 
 .social__icon {
     fill: #B3B3B3;
-    max-height: 30px;
+    max-height: rem(30px);
 
     @include phones {
-        max-height: 24px;  
+        max-height: rem(60px);
     }
 
     &:hover {
@@ -24,7 +24,7 @@
 
 .social {
     display: flex;
-    padding-right: 70px;
+    padding-right: rem(70px);
 
     @include tablets {
         padding-right: 0;
@@ -32,7 +32,7 @@
 }
 
 .address {
-padding-left: 70px;
+padding-left: rem(70px);
 font-size: $baseFontSize;
 color: $black;
 font-family: 'Play', Arial, Helvetica, sans-serif;
@@ -43,7 +43,7 @@ font-family: 'Play', Arial, Helvetica, sans-serif;
 }
 
 @include phones {
-    margin-bottom: 10px;
+    margin-bottom: rem(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,14 +52,12 @@ font-family: 'Play', Arial, Helvetica, sans-serif;
 }
 
 .social__item {
-max-width: 30px;
-max-height: 30px;
-padding: 0 20px;
+max-width: rem(30px);
+max-height: rem(30px);
+padding: 0 rem(20px);
 
 @include phones {
-    max-width: 24px;
-    max-height: 24px;
-    padding: 0 20px;
+    padding: 0 rem(35px);
 }
 }
 

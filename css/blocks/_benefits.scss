@@ -5,17 +5,17 @@
     &::before {
         content: url("../img/triangle.png");
         position: absolute;
-        bottom: 10px;
-        left: 461px;
+        bottom: 16%;
+        left: 5%;
 
         @include tablets {
-            bottom: -4px;
-            left: 47px;  
+            bottom: 1%;
+            left: 7%;  
         }
 
         @include phones {
-            bottom: 83px;
-            left: 42px;
+            bottom: 13%;
+            left: 10%;
         }
         
     }

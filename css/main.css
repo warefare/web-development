@@ -453,7 +453,7 @@ footer {
 }
 .hero::before {
   position: absolute;
-  bottom: -32px;
+  bottom: -3%;
   right: 7%;
   content: url("../img/rectangle.png");
 }
@@ -484,8 +484,8 @@ footer {
   }
   .hero__title-section::before {
     content: "";
-    width: 323px;
-    height: 323px;
+    width: 17.9444444444rem;
+    height: 17.9444444444rem;
     background: url("../../img/beats_little.png") center center/contain no-repeat;
     margin-bottom: 3.3333333333rem;
   }
@@ -725,8 +725,8 @@ footer {
 
 .benefit__image-wrapper {
   display: inline-block;
-  width: 128px;
-  height: 128px;
+  width: 7.1111111111rem;
+  height: 7.1111111111rem;
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
@@ -735,8 +735,8 @@ footer {
 }
 
 .benefit__icon {
-  width: 68px;
-  height: 68px;
+  width: 3.7777777778rem;
+  height: 3.7777777778rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -763,19 +763,19 @@ footer {
 .benefits::before {
   content: url("../img/triangle.png");
   position: absolute;
-  bottom: 10px;
-  left: 461px;
+  bottom: 16%;
+  left: 5%;
 }
 @media screen and (max-width: 768px) {
   .benefits::before {
-    bottom: -4px;
-    left: 47px;
+    bottom: 1%;
+    left: 7%;
   }
 }
 @media screen and (max-width: 480px) {
   .benefits::before {
-    bottom: 83px;
-    left: 42px;
+    bottom: 13%;
+    left: 10%;
   }
 }
 
@@ -899,8 +899,8 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .reviews__avatar {
-    width: 130px;
-    height: 130px;
+    width: 7.2222222222rem;
+    height: 7.2222222222rem;
     margin-bottom: 1.7777777778rem;
   }
 }
@@ -946,7 +946,7 @@ footer {
 }
 @media screen and (max-width: 768px) {
   .reviews__text {
-    margin-bottom: 16px;
+    margin-bottom: 0.8888888889rem;
   }
 }
 .reviews__author {
@@ -956,8 +956,8 @@ footer {
 }
 
 .interactive-avatar {
-  width: 64px;
-  height: 64px;
+  width: 3.5555555556rem;
+  height: 3.5555555556rem;
   border: 0.2222222222rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
@@ -984,6 +984,10 @@ footer {
      object-fit: cover;
 }
 
+.reviews__avatar-img {
+  padding-right: 2.1111111111rem;
+}
+
 .reviews__switcher {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1000,19 +1004,19 @@ footer {
 .reviews::before {
   content: url("../img/circle.png");
   position: absolute;
-  bottom: 0px;
-  left: 172px;
+  bottom: -2.5%;
+  left: 2%;
 }
 @media screen and (max-width: 768px) {
   .reviews::before {
-    bottom: -26px;
-    left: 98px;
+    bottom: -2.5%;
+    left: 8%;
   }
 }
 @media screen and (max-width: 480px) {
   .reviews::before {
-    bottom: -23px;
-    left: 54px;
+    bottom: -2.5%;
+    left: 11%;
   }
 }
 
@@ -1230,8 +1234,8 @@ footer {
 }
 
 .hamburger {
-  width: 26px;
-  height: 20px;
+  width: 1.4444444444rem;
+  height: 1.1111111111rem;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1255,13 +1259,13 @@ footer {
 .hamburger__plank {
   display: block;
   background: #292929;
-  height: 5px;
-  border-radius: 10px;
+  height: 0.2777777778rem;
+  border-radius: 0.5555555556rem;
 }
 
 .map-section {
   background: url("../../img/map.jpg") center center/contain no-repeat;
-  margin-bottom: 20px;
+  margin-bottom: 1.1111111111rem;
 }
 @media screen and (max-width: 768px) {
   .map-section {
@@ -1297,11 +1301,11 @@ footer {
 
 .social__icon {
   fill: #B3B3B3;
-  max-height: 30px;
+  max-height: 1.6666666667rem;
 }
 @media screen and (max-width: 480px) {
   .social__icon {
-    max-height: 24px;
+    max-height: 3.3333333333rem;
   }
 }
 .social__icon:hover {
@@ -1312,7 +1316,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 70px;
+  padding-right: 3.8888888889rem;
 }
 @media screen and (max-width: 768px) {
   .social {
@@ -1321,7 +1325,7 @@ footer {
 }
 
 .address {
-  padding-left: 70px;
+  padding-left: 3.8888888889rem;
   font-size: 18px;
   color: #292929;
   font-family: "Play", Arial, Helvetica, sans-serif;
@@ -1334,7 +1338,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .address {
-    margin-bottom: 10px;
+    margin-bottom: 0.5555555556rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1349,15 +1353,13 @@ footer {
 }
 
 .social__item {
-  max-width: 30px;
-  max-height: 30px;
-  padding: 0 20px;
+  max-width: 1.6666666667rem;
+  max-height: 1.6666666667rem;
+  padding: 0 1.1111111111rem;
 }
 @media screen and (max-width: 480px) {
   .social__item {
-    max-width: 24px;
-    max-height: 24px;
-    padding: 0 20px;
+    padding: 0 1.9444444444rem;
   }
 }
 
@@ -1402,7 +1404,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .contacts__text {
-    margin-bottom: 19px;
+    margin-bottom: 1.0555555556rem;
     font-size: 16px;
   }
 }
@@ -1419,7 +1421,7 @@ footer {
 }
 
 .contacts__img {
-  padding-right: 7px;
+  padding-right: 0.3888888889rem;
 }
 
 .contacts__place {
@@ -1427,6 +1429,6 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .contacts__place {
-    margin-bottom: 12px;
+    margin-bottom: 0.6666666667rem;
   }
 }

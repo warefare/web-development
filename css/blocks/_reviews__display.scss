@@ -39,8 +39,8 @@
     height: rem(264px);
 
     @include tablets {
-    width: 130px;
-    height: 130px;
+    width: rem(130px);
+    height: rem(130px);
     margin-bottom: rem(32px);
 
     }
@@ -76,7 +76,7 @@
     margin-bottom: rem(38px);
 
     @include tablets {
-        margin-bottom: 16px;
+        margin-bottom: rem(16px);
     }
 
     @include phones {
