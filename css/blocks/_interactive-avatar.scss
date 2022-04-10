@@ -1,6 +1,6 @@
 .interactive-avatar {
-    width: rem(64px);
-    height: rem(64px);
+    width: 64px;
+    height: 64px;
     border: rem(4px) solid transparent;
     border-radius: 50%;
     overflow: hidden;
@@ -28,6 +28,3 @@
     object-fit: cover;
 }
 
-.reviews__avatar-img {
-    padding-right: rem(38px);
-}

@@ -9,8 +9,8 @@
 
 .benefit__image-wrapper {
     display: inline-block;
-    width: rem(128px);
-    height: rem(128px);
+    width: 128px;
+    height: 128px;
     position: relative;
     background: #F2F5F4;
     border-radius: 50%;
@@ -19,8 +19,8 @@
 }
 
 .benefit__icon {
-    width: rem(68px);
-    height: rem(68px);
+    width: 68px;
+    height: 68px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -28,6 +28,7 @@
 }
 
 .benefit__title {
+    font-family: 'Play', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: $black;
@@ -36,5 +37,6 @@
 }
 
 .benefit__desc {
+    font-family: 'Play', Arial, Helvetica, sans-serif;
     font-size: rem(16px);
 }

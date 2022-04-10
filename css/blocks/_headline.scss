@@ -3,13 +3,19 @@
 }
 
 .headline__title {
+    font-size: 48px;
     margin-bottom: rem(18px);
+
+    @include phones {
+        font-size: 32px;
+    }
 }
 
 .headline__subtitle {
+    font-family: 'Play', Arial, Helvetica, sans-serif;
     font-size: 16px;
     padding: 0 26%;
-    margin-bottom: rem(62px);
+    margin-bottom: 10%;
 
     @include tablets {
         padding: 0 11%;  

@@ -1,7 +1,7 @@
 .button {
-    font-size: rem(16px);
+    font-size: 16px;
     font-weight: bold;
-    padding: rem(23px) rem(46px);
+    padding: 23px 46px;
     text-transform: uppercase;
     border-radius: rem(100px);
     line-height: 1;
@@ -10,9 +10,17 @@
     border: none;
     font-family: 'Play', Arial, Helvetica, sans-serif;
 
+    @include phones {
+        font-size: 16px;
+    }
+
     &__red {
         background: $red;
         color: #fff;
+
+        @include phones {
+            font-size: 16px;
+        }
 
         &:hover {
             background: $red-hover;

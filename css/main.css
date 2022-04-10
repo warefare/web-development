@@ -447,7 +447,6 @@ footer {
 .hero {
   background: #F8FAF9;
   height: 100vh;
-  min-width: 36.1111111111rem;
   color: #292929;
   position: relative;
 }
@@ -484,9 +483,9 @@ footer {
   }
   .hero__title-section::before {
     content: "";
-    width: 17.9444444444rem;
-    height: 17.9444444444rem;
-    background: url("../../img/beats_little.png") center center/contain no-repeat;
+    width: 73%;
+    height: 40%;
+    background: url("../img/beats_little.png") center center/contain no-repeat;
     margin-bottom: 3.3333333333rem;
   }
 }
@@ -518,7 +517,7 @@ footer {
 
 .hero__main-title {
   font-family: "Play", Arial, Helvetica, sans-serif;
-  font-size: 2.6666666667rem;
+  font-size: 48px;
   line-height: 1.1;
   font-weight: bold;
   margin-bottom: 0.2777777778rem;
@@ -532,23 +531,26 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .hero__main-title {
-    padding: 2% 19%;
+    padding: 2% 7%;
+    font-size: 32px;
   }
 }
 
 .hero__title-desc {
-  font-size: 1.1666666667rem;
+  font-family: "Play", Arial, Helvetica, sans-serif;
+  font-size: 21px;
   margin-bottom: 1.2777777778rem;
   padding-right: 6.1666666667rem;
 }
 @media screen and (max-width: 768px) {
   .hero__title-desc {
     padding: 0 19%;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 480px) {
   .hero__title-desc {
-    padding: 0 20%;
+    padding: 0 12%;
   }
 }
 
@@ -639,9 +641,9 @@ footer {
 }
 
 .button {
-  font-size: 0.8888888889rem;
+  font-size: 16px;
   font-weight: bold;
-  padding: 1.2777777778rem 2.5555555556rem;
+  padding: 23px 46px;
   text-transform: uppercase;
   border-radius: 5.5555555556rem;
   line-height: 1;
@@ -650,9 +652,19 @@ footer {
   border: none;
   font-family: "Play", Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 480px) {
+  .button {
+    font-size: 16px;
+  }
+}
 .button__red {
   background: #E01F3D;
   color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .button__red {
+    font-size: 16px;
+  }
 }
 .button__red:hover {
   background: #CA1B36;
@@ -683,7 +695,7 @@ footer {
 }
 
 .section__title {
-  font-size: 2.6666666667rem;
+  font-size: 48px;
   font-weight: bold;
   font-family: "Play", Arial, Helvetica, sans-serif;
   margin-bottom: 2.9444444444rem;
@@ -691,19 +703,32 @@ footer {
   color: #292929;
   text-transform: uppercase;
 }
+@media screen and (max-width: 480px) {
+  .section__title {
+    font-size: 32px;
+    margin-bottom: 3%;
+  }
+}
 
 .headline {
   text-align: center;
 }
 
 .headline__title {
+  font-size: 48px;
   margin-bottom: 1rem;
+}
+@media screen and (max-width: 480px) {
+  .headline__title {
+    font-size: 32px;
+  }
 }
 
 .headline__subtitle {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding: 0 26%;
-  margin-bottom: 3.4444444444rem;
+  margin-bottom: 10%;
 }
 @media screen and (max-width: 768px) {
   .headline__subtitle {
@@ -730,8 +755,8 @@ footer {
 
 .benefit__image-wrapper {
   display: inline-block;
-  width: 7.1111111111rem;
-  height: 7.1111111111rem;
+  width: 128px;
+  height: 128px;
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
@@ -739,8 +764,8 @@ footer {
 }
 
 .benefit__icon {
-  width: 3.7777777778rem;
-  height: 3.7777777778rem;
+  width: 68px;
+  height: 68px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -749,6 +774,7 @@ footer {
 }
 
 .benefit__title {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #292929;
@@ -757,6 +783,7 @@ footer {
 }
 
 .benefit__desc {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   font-size: 0.8888888889rem;
 }
 
@@ -856,7 +883,7 @@ footer {
 
 .benefit__image {
   margin-bottom: 1.0555555556rem;
-  margin-right: 0.6666666667rem;
+  margin-right: 0.8333333333rem;
 }
 
 .reviews__display {
@@ -903,13 +930,13 @@ footer {
 }
 
 .reviews__avatar {
-  width: 14.0555555556rem;
-  height: 14.6666666667rem;
+  width: 253px;
+  height: 264px;
 }
 @media screen and (max-width: 768px) {
   .reviews__avatar {
-    width: 7.2222222222rem;
-    height: 7.2222222222rem;
+    width: 130px;
+    height: 130px;
     margin-bottom: 1.7777777778rem;
   }
 }
@@ -919,6 +946,12 @@ footer {
      object-fit: cover;
   width: 100%;
   height: 100%;
+  padding-right: 8%;
+}
+@media screen and (max-width: 768px) {
+  .reviews__avatar-img {
+    padding-right: 0;
+  }
 }
 
 .reviews__content {
@@ -938,6 +971,7 @@ footer {
 }
 
 .reviews__title {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #292929;
@@ -950,6 +984,7 @@ footer {
 }
 
 .reviews__text {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin-bottom: 2.1111111111rem;
 }
@@ -959,14 +994,15 @@ footer {
   }
 }
 .reviews__author {
+  font-family: "Play", Arial, Helvetica, sans-serif;
   color: #292929;
   font-weight: bold;
   font-size: 18px;
 }
 
 .interactive-avatar {
-  width: 3.5555555556rem;
-  height: 3.5555555556rem;
+  width: 64px;
+  height: 64px;
   border: 0.2222222222rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
@@ -991,10 +1027,6 @@ footer {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.reviews__avatar-img {
-  padding-right: 2.1111111111rem;
 }
 
 .reviews__switcher {
@@ -1137,7 +1169,8 @@ footer {
 
 .form__title {
   margin-bottom: 0.3333333333rem;
-  font-size: 0.8888888889rem;
+  font-size: 16px;
+  font-family: "Play", Arial, Helvetica, sans-serif;
 }
 
 .form__btns {
@@ -1179,6 +1212,11 @@ footer {
 }
 .radio__elem:checked ~ .radio__visible::before {
   display: block;
+}
+
+.radio__title {
+  font-size: 16px;
+  font-family: "Play", Arial, Helvetica, sans-serif;
 }
 
 .radio__visible {
@@ -1243,8 +1281,8 @@ footer {
 }
 
 .hamburger {
-  width: 1.4444444444rem;
-  height: 1.1111111111rem;
+  width: 26px;
+  height: 20px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;

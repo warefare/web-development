@@ -16,11 +16,18 @@
 }
 
 .section__title {
-    font-size: rem(48px);
+    font-size: 48px;
     font-weight: bold;
     font-family: 'Play', Arial, Helvetica, sans-serif;
     margin-bottom: rem(53px);
     text-align: center;
     color: $black;
     text-transform: uppercase;
+
+    @include phones {
+        font-size: 32px;
+        margin-bottom: 3%;
+    }
+
 }
+

@@ -1,7 +1,7 @@
 .hero {
     background: #F8FAF9;
     height: 100vh;
-    min-width: rem(650px);
+    // min-width: rem(650px);
     color: $black;
     position: relative;
 
@@ -32,9 +32,10 @@
 
         &::before {
             content:"" ;
-            width: rem(323px);
-            height: rem(323px);
-            background: url("../../img/beats_little.png") center center / contain no-repeat;
+            width: 73%;
+            height: 40%;
+            
+            background: url("../img/beats_little.png") center center / contain no-repeat;
             margin-bottom: rem(60px);
         }
     }
@@ -61,7 +62,7 @@
 .hero__main-title {
     
     font-family: 'Play', Arial, Helvetica, sans-serif;
-    font-size: rem(48px);
+    font-size: 48px;
     line-height: 1.1;
     font-weight: bold;
     margin-bottom: rem(5px);
@@ -73,21 +74,24 @@
     }
 
     @include phones {
-        padding:2% 19%;
+        padding:2% 7%;
+        font-size: 32px;
     }
 }
 
 .hero__title-desc {
-    font-size: rem(21px);
+    font-family: 'Play', Arial, Helvetica, sans-serif;
+    font-size: 21px;
     margin-bottom: rem(23px);
     padding-right: rem(111px);
 
     @include tablets {
         padding: 0 19%;
+        font-size: 18px;
     }
 
     @include phones {
-        padding: 0 20%;
+        padding: 0 12%;
     }
 }
 
