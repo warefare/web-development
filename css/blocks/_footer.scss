@@ -24,7 +24,7 @@
 
 .social {
     display: flex;
-    padding-right: rem(70px);
+    padding-right: 2.5%;
 
     @include tablets {
         padding-right: 0;
@@ -32,7 +32,7 @@
 }
 
 .address {
-padding-left: rem(70px);
+padding-left: 5%;
 font-size: $baseFontSize;
 color: $black;
 font-family: 'Play', Arial, Helvetica, sans-serif;

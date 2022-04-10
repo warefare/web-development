@@ -10,9 +10,23 @@
     border: none;
     font-family: 'Play', Arial, Helvetica, sans-serif;
 
-    @include phones {
-        font-size: 16px;
+    // @include phones {
+    //     font-size: 16px;
+    // }
+
+    &__red-main {
+        background: $red;
+        color: #fff;
+
+        @include phones {
+            font-size: 19px;
+        }
+
+        &:hover {
+            background: $red-hover;
+        }
     }
+
 
     &__red {
         background: $red;
@@ -33,7 +47,7 @@
         font-weight: normal;
         text-transform: none;
 
-        &:hover{
+        &:hover {
             color: $red;
         }
     }

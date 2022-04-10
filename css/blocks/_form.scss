@@ -1,8 +1,9 @@
 .form {
     display: flex;
-    flex-direction: column;
+    
 
     @include tablets{
+        flex-direction: column;
         padding: 0 16%;
     }
 

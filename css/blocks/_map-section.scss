@@ -1,19 +1,22 @@
 .map-section {
     background: url("../img/map.jpg") center center  / contain no-repeat;
-    margin-bottom: rem(20px);
-    // width: 100%;
-    // overflow: hidden;
-    // max-height: 650px;
-    // flex: 1;
-    // min-height: 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50%;
     
 
 @include tablets {
     background: url("../img/map768.jpg") center center  / contain no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50%;
 }
 
 @include phones {
     background: url("../img/map482.jpg") center center  / contain no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50%;
 }
 
     }
