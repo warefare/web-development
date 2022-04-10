@@ -531,7 +531,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
   .hero__main-title {
-    padding: 2% 7%;
+    padding: 2% 8%;
     font-size: 32px;
   }
 }
