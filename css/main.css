@@ -353,7 +353,6 @@ html {
   font-family: "Algreya Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   height: 100%;
-  overflow-x: hidden;
 }
 @media screen and (max-width: 768px) {
   html {
@@ -432,16 +431,15 @@ footer {
 
 .wrapper {
   position: relative;
-  overflow: hidden;
   width: 100%;
   min-height: 100%;
 }
-
 .container {
   width: 95%;
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
+  overflow-x: hidden;
 }
 
 .hero {
@@ -508,6 +506,7 @@ footer {
 @media screen and (max-width: 768px) {
   .hero__container {
     background: none;
+    height: 100vh;
   }
 }
 
@@ -687,7 +686,7 @@ footer {
 }
 
 .section {
-  height: 10vh;
+  height: 100vh;
   min-height: 36.1111111111rem;
   display: -webkit-box;
   display: -ms-flexbox;
