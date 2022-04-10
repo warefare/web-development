@@ -14,7 +14,7 @@
     max-height: rem(30px);
 
     @include phones {
-        max-height: rem(60px);
+    max-height: rem(60px);
     }
 
     &:hover {
@@ -24,10 +24,10 @@
 
 .social {
     display: flex;
-    padding-right: 2.5%;
+    padding-right: 6%;
 
     @include tablets {
-        padding-right: 0;
+        padding-right: 6%;
     }
 }
 
@@ -53,11 +53,13 @@ font-family: 'Play', Arial, Helvetica, sans-serif;
 
 .social__item {
 max-width: rem(30px);
-max-height: rem(30px);
-padding: 0 rem(20px);
+max-height: 100%;
+padding: 15%;
 
 @include phones {
-    padding: 0 rem(35px);
+max-width: 24px;
+max-height: 100%;
+padding: 0 rem(35px);
 }
 }
 
